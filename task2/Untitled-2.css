@@ -1,0 +1,36 @@
+
+.container {
+    width: 1140px;
+    margin: 0 auto;
+    background-color: black;
+  }
+.row {
+    display: flex;
+    flex-wrap: wrap;
+  }
+.col{
+    width: 33.33%;
+}
+.txt{
+    width: 240px;height: 400px; text-align: left;
+}
+.txt2{
+    margin-top: -10px; color: white;
+}
+.txt1{
+    color: white;
+}
+@media only screen and (max-width: 992px) {
+.col
+{
+    width: 50% !important;
+}
+}
+
+@media only screen and (max-width: 560px) {
+    .col
+    {
+        width: 100% !important;
+    }
+    }
+      
